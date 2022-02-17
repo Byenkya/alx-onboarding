@@ -1,0 +1,17 @@
+This is a program that reads three numbers and returns
+them all in a sorted order.
+
+Get input from the user
+
+print prompt "input of three numbers"
+
+Take the first number from the user as num1
+
+Take the second number from the user as num2
+
+Take the third number from the user as num3
+
+Create a list of these numbers
+numbers = [num1, num2, num3]
+
+Sort the list and return the result as a string
