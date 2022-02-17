@@ -1,0 +1,30 @@
+This program calculates the sum of squares of numbers
+given the input of numbers.
+
+Example
+numbers = "123"
+        = 1*1 + 2*2 + 3*3
+sum     = 14
+
+First create a list i.e squares that holds squares of numbers
+list_squares = []
+
+Second define a function that takes on a string of numbers
+calculates their squares and returns the sum of the squares.
+
+function sumOfSquares(values){
+	In this function loop through the values argument
+	checking for numbers and squaring them and appending
+	the result in a list(i.e list_squares)
+
+	return the sum of list_squares
+}
+
+Program flow
+
+Get input from the user as a string of numbers
+
+print prompt "input of number"
+
+Take the input to sumOfSquares and print the results
+ 
