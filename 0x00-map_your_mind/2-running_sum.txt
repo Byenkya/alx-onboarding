@@ -1,0 +1,26 @@
+This program calculates the running sum until
+it encounters a negative number to stop adding.
+
+First create a function to add the integers until
+it encounters a negative value.
+
+function sumOfNumbers(numbers){
+	create a variable to hold the summation.
+	_sum = 0
+	
+	loop through the list of numbers adding
+	them to the _sum variable until a negative 
+	value is encounted. If a negative value is
+	encounted, stop the summation and return the
+	result.
+	
+	return _sum
+}
+
+Program flow
+Get input of numbers from users
+
+print prompt "input numbers e.g 1,2,3,-4"
+
+Take the input to the function sumOfNumbers
+and return the result to the user.
